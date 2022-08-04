@@ -12,6 +12,7 @@ const CommentCreate = ({ postId }) => {
     });
 
     setContent("");
+    window.location.reload();
   };
 
   return (

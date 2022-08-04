@@ -12,6 +12,7 @@ const PostCreate = () => {
     });
 
     setTitle("");
+    window.location.reload();
   };
 
   return (
